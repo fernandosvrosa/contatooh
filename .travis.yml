@@ -1,7 +1,7 @@
 language: node_js
 node_js: 
 - 0.10
-notification:
+notifications:
 - fernandosilvarosa@ymail.com
 before_install:
 - npm install -g bower@1.3
@@ -11,9 +11,9 @@ before_install:
 - webdriver-manager update
 - bower install
 before_script:
+- npm install --save-dev karma-phantomjs-launcher@0.1
 - grunt
 - cd  dist
-- npm install karma-Phantomjs-launcher@0.1 --save-dev
 - node server &
 - sleep 10
 script:

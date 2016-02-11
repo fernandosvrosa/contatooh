@@ -9,3 +9,6 @@ projetos criados para estudos de MEAN stack do livro de MEAN da casa do codigo.
 - execute o comando bower install para baixar as dependencias de CSS e javascript usadas no front
 - para start do server na raiz executar node server
 - acessar  http://localhost:3000
+
+
+[![Build Status](https://travis-ci.org/fernandosvrosa/contatooh.svg?branch=master)](https://travis-ci.org/fernandosvrosa/contatooh)

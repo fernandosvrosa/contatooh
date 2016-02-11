@@ -14,5 +14,7 @@ before_script:
 - grunt
 - cd  dist
 - npm install karma-Phantomjs-launcher@0.1 --save-dev
+- node server &
+- sleep 10
 script:
 - karma start config/karma.config.js --single-run --browsers PhantomJS
